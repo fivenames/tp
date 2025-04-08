@@ -29,7 +29,7 @@ Storage -up[STORAGE_COLOR].> Model
 Storage -right[STORAGE_COLOR].> File
 
 ' Define legend as a separate box
-rectangle "===Legend\n→ : Direct call / invocation\n--> : Data transfer" as LEGEND #lightgrey
+rectangle "===Legend\n→ : Dependency\n--> : Data transfer" as LEGEND #lightgrey
 
 ' Invisible layout link to push legend to the right
 UI -[hidden]-> LEGEND
