@@ -40,7 +40,8 @@ title: Developer Guide
     * [Sort the internship applications](#sort-the-internship-applications)
     * [Listing applications](#listing-applications)
     * [Exit](#exit)
---------------------------------------------------------------------------------------------------------------------
+    
+---
 
 ## **Acknowledgements**
 
