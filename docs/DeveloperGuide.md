@@ -67,7 +67,7 @@ The ***Architecture Diagram*** given above shows the overall architecture of the
 
 **Main components of the architecture**
 
-**`Main`** (consisting of [`LogJob`](https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/Main.java) class) is in charge of the app launch and shut down.
+**`Main`** (consisting of [`LogJob`](https://github.com/AY2425S2-CS2113-T11a-2/tp/blob/master/src/main/java/seedu/logjob/LogJob.java) class) is in charge of the app launch and shut down.
 * At app launch, it initializes the other components in the correct sequence, and connects them up with each other.
 * At shut down, it shuts down the other components and invokes cleanup methods where necessary.
 
@@ -88,12 +88,12 @@ The *Sequence Diagram* below shows how the components interact with each other f
 
 > **NOTE**: The sequence diagram above shows a simplified version of the `delete` command execution for clarity purposes
 
-For the two main components [`Model`](...) and [`Storage`](...) dealing with application state,
+For the two main components `Model` and `Storage` dealing with application state,
 
 * The main components `Logic`, `Model` and `Storage` are defined in interfaces. This allows the implemenetation details of each component to be decoupled from the implementation details.
-* The main componetents `Logic`, `Model` and `Storage` are implemented in `LogicManager`, `ApplictationManager`, and `StorageManager` respectively.
+* The main components `Logic`, `Model` and `Storage` are implemented in `LogicManager`, `ApplictationManager`, and `StorageManager` respectively.
 
-> **EXAMPLE:** The [`Storage`](...) component defines its API in the [`Storage.java`](...) interface. It implements this interface via the [`StorageManager.java`](...) class. Other components interact through this interface rather than a concrete calss to prevent other components being coupled to the implementation. 
+> **EXAMPLE:** The `Storage` component defines its API in the `Storage.java` interface. It implements this interface via the `StorageManager.java` class. Other components interact through this interface rather than a concrete calss to prevent other components being coupled to the implementation. 
 
 The sections below give more details of each component.
 
@@ -121,7 +121,7 @@ The UiMain also access constants specified in the UiConstants class.
 
 ### Logic component
 
-**API** : [`Logic.java`]
+**API** : [`Logic.java`](https://github.com/AY2425S2-CS2113-T11a-2/tp/blob/master/src/main/java/seedu/logjob/logic/Logic.java)
 
 Here's a (partial) class diagram of the `Logic` component (Note that individual parser classes are omitted for clarity and represented by the overall `Parser`package):
 
