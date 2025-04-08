@@ -26,7 +26,7 @@ package UI as UiPackage {
 }
 
 ApplicationManager << (X,#FFFFFF) >>
-ApplicationManager --> UiMain
+ApplicationManager "1" --> UiMain
 
 UiMain ..> UiTable
 UiMain ..> UiConstants
