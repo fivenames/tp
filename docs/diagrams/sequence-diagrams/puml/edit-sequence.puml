@@ -43,7 +43,7 @@ deactivate ApplicationParser
 
 LogicManager -> EditCommand: execute()
 activate EditCommand
-EditCommand -> ApplicationManager: edit(application) \nif valid index and \n if minimum one flag
+EditCommand -> ApplicationManager: edit(application)
 activate ApplicationManager
 ApplicationManager --> EditCommand
 deactivate ApplicationManager
