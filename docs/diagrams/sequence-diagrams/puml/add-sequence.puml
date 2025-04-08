@@ -44,7 +44,7 @@ deactivate ApplicationParser
 
 LogicManager -> AddCommand: execute()
 activate AddCommand
-AddCommand -> ApplicationManager: add(application) \nif not duplicate
+AddCommand -> ApplicationManager: add(application)
 activate ApplicationManager
 ApplicationManager --> AddCommand
 deactivate ApplicationManager
