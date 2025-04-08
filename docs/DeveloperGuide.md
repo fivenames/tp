@@ -7,7 +7,7 @@ title: Developer Guide
 
 * Table of Contents
 * [LogJob Developer Guide](#logjob-developer-guide)
-  * [**Acknowledgements**](#Acknowledgements) 
+  * [**Acknowledgements**](#acknowledgements) 
   * [**Setting up, getting started**](#setting-up-getting-started)
   * [**Design**](#design)
     * [Architecture](#architecture)
@@ -24,7 +24,6 @@ title: Developer Guide
     * [Find an internship application](#find-an-internship-application)
     * [Help command](#help-command)
     * [Exit the application](#exit-the-application)
-* [**Documentation, logging, testing, configuration, dev-ops**](#documentation-logging-testing-configuration-dev-ops)
   * [**Appendix: Requirements**](#appendix-requirements)
     * [Product scope](#product-scope)
     * [User stories](#user-stories)
@@ -37,6 +36,8 @@ title: Developer Guide
     * [Adding an internship application](#adding-an-internship-application)
     * [Editing an internship application](#editing-an-internship-application)
     * [Deleting an internship application](#deleting-an-internship-application)
+    * [Finding an internship application](#find-an-internship-application)
+    * [Sort the internship applications](#sort-the-internship-applications)
     * [Listing applications](#listing-applications)
     * [Exit](#exit)
 --------------------------------------------------------------------------------------------------------------------
