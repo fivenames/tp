@@ -32,7 +32,10 @@ ___
    `add -n Google -j Software Engineer`<br>
     `list`
 5. For more possible commands please refer to the Features and the Command Summary sections.
+
+
 ---
+
 
 ## Features
 
@@ -77,9 +80,9 @@ Edits an existing Internship Application on the list at position INDEX
 Format `edit INDEX [-n COMPANY NAME] [-j JOB TITLE] [-s APPLICATION STATUS] [-d DATE]`
 
 Example of usage:
-`edit 0 -s OFFERED -d 2025-04-01`
+`edit 1 -s OFFERED -d 2025-04-01`
 
-**📌Note** that INDEX has to be an integer from `0` to `n-1`, where `n`  is the total number of applications.
+**📌Note** that INDEX has to be an integer from `1` to `n`, where `n`  is the total number of applications.
 Edit must also contain at least one flag.
 
 ⚠️ No-Operation Detection: If the input arguments exactly match the fields of the existing Internship Application, it is consider as a No-Operation.
@@ -129,7 +132,7 @@ Delete applications by index.
 
 Example of usage:
 
-`delete 0`
+`delete 1`
 
 `delete 3`
 
@@ -167,7 +170,11 @@ Exits from LogJob.
 Example usage:
 
 `exit`
+
+
 ___
+
+
 ## FAQ
 
 **Q**: How do I transfer my data to another computer?
