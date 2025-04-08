@@ -146,7 +146,7 @@ How the parsing works:
 * The `ParserUtils` class depends on the `Validator` package to validate each specific field. This ensures user inputs for job title, company name, application status, etc. meet domain constraints before conversion.  
 
 ### Model component
-**API** : [`Model.java`](https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/model/Model.java)
+**Class** : [`ApplicationManager.java`](https://github.com/AY2425S2-CS2113-T11a-2/tp/blob/master/src/main/java/seedu/logjob/model/ApplicationManager.java)
 
 <img src="diagrams/class-diagrams/ModelClassDiagram.png" width="800" />
 
