@@ -43,7 +43,7 @@ deactivate ApplicationParser
 
 LogicManager -> FindCommand: execute()
 activate FindCommand
-FindCommand -> ApplicationManager: find(application)
+FindCommand -> ApplicationManager: find(searchTerm)
 activate ApplicationManager
 ApplicationManager --> FindCommand: observableList
 deactivate ApplicationManager
